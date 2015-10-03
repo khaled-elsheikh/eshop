@@ -1,0 +1,1 @@
+ $result=mysql_query("INSERT INTO cart (product_id , quantity , user ) VALUES ('$data[product]','1','$_SESSION[user]')",$con);
